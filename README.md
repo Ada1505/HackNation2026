@@ -133,6 +133,9 @@ MLflow 3 Trace  (1 span per LLM call + 1 span per tool call)
 | 4.0 – 6.9 | LIKELY_RELIABLE | Adequate data, minor gaps |
 | < 4.0 | UNVERIFIED | Incomplete or contradictory data |
 
+*Computes a Wilson confidence interval around a facility's
+    trust score using a Wilson score interval approach.*
+
 **Quality Flags:**
 - `flag_icu_contradiction` — claims ICU but 0 beds recorded
 - `flag_surgery_no_anaesthesia` — claims surgery, no anaesthesiologist
