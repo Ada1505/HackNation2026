@@ -1,0 +1,20 @@
+command: ["streamlit", "run", "streamlit_app.py", "--server.port=8080", "--server.address=0.0.0.0"]
+
+env:
+  - name: DATABRICKS_HOST
+    value: 
+  
+  - name: DATABRICKS_TOKEN
+    value: 
+
+  - name: DATABRICKS_SQL_WH
+    value: 
+
+  - name: VS_ENDPOINT
+    value: "vs-medialert-endpoint"
+  
+  - name: VS_INDEX
+    value: "workspace.default.facilities_vector_index"
+  
+  - name: LLM_ENDPOINT
+    value: "databricks-meta-llama-3-3-70b-instruct"

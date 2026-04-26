@@ -1,0 +1,8 @@
+streamlit
+python-dotenv
+requests
+folium
+streamlit-folium
+openai
+databricks-sql-connector
+mlflow>=3.0.0
