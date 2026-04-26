@@ -38,10 +38,15 @@ MediAlert helps patients and healthcare workers find the right facility fast. It
 .
 ├── backend.py          # Databricks connector: SQL, Vector Search, ReAct agent, MLflow tracing
 ├── streamlit_app.py    # Full Streamlit UI (5 tabs)
+├── 01_cleaning.py # Notebook: data cleaning
+├── 02_embeddings.py # Notebook: 
 ├── 03_agent.py         # Notebook: agent development + MLflow experiments
 ├── 04_validator.py     # Notebook: validator / self-correction layer
 ├── 05_medical_deserts.py # Notebook: desert analysis dashboard
-├── requirements.txt    # Python dependencies
+├── filtered_heatmaps_text.py # Notebook: streamlit ui with filtered heatmaps
+├── facilities_clean_sql # data after cleaning
+├── facilities_for_embedding.csv # facility description data
+├── requirements.txt # Python dependencies
 └── README.md
 ```
 
